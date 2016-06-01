@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B18A4ED1CF6A24E0076A158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18A4EC1CF6A24E0076A158 /* AppDelegate.swift */; };
+		7B18A4EF1CF6A24E0076A158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18A4EE1CF6A24E0076A158 /* ViewController.swift */; };
+		7B18A4F21CF6A24F0076A158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A4F01CF6A24F0076A158 /* Main.storyboard */; };
+		7B18A4F41CF6A24F0076A158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A4F31CF6A24F0076A158 /* Assets.xcassets */; };
+		7B18A4F71CF6A24F0076A158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A4F51CF6A24F0076A158 /* LaunchScreen.storyboard */; };
+		7B18A5021CF6A24F0076A158 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18A5011CF6A24F0076A158 /* ___Tests.swift */; };
+		7B18A50D1CF6A24F0076A158 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18A50C1CF6A24F0076A158 /* ___UITests.swift */; };
+		7B18A52A1CF6A4C20076A158 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5291CF6A4C20076A158 /* libsqlite3.0.tbd */; };
+		7B18A52C1CF6A4CB0076A158 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A52B1CF6A4CB0076A158 /* libstdc++.6.0.9.tbd */; };
+		7B18A5301CF6A4D70076A158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A52F1CF6A4D70076A158 /* Foundation.framework */; };
+		7B18A5321CF6A4DC0076A158 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5311CF6A4DC0076A158 /* UIKit.framework */; };
+		7B18A5341CF6A4E50076A158 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5331CF6A4E50076A158 /* AudioToolbox.framework */; };
+		7B18A5361CF6A4EA0076A158 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5351CF6A4EA0076A158 /* CoreGraphics.framework */; };
+		7B18A5381CF6A4EF0076A158 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5371CF6A4EF0076A158 /* QuartzCore.framework */; };
+		7B18A53A1CF6A4F50076A158 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5391CF6A4F50076A158 /* SystemConfiguration.framework */; };
+		7B18A53E1CF6B4470076A158 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18A53D1CF6B4470076A158 /* MD5.m */; };
+		7B18A54A1CF6C2CE0076A158 /* libH5ContainerStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18A5451CF6C2CE0076A158 /* libH5ContainerStaticLib.a */; };
+		7B18A54B1CF6C2CE0076A158 /* bestpay_error.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A5471CF6C2CE0076A158 /* bestpay_error.html */; };
+		7B18A54C1CF6C2CE0076A158 /* bestpay_nowifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A5481CF6C2CE0076A158 /* bestpay_nowifi.png */; };
+		7B18A54D1CF6C2CE0076A158 /* PassGuardCtrlBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B18A5491CF6C2CE0076A158 /* PassGuardCtrlBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B18A4FE1CF6A24F0076A158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B18A4E11CF6A24E0076A158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B18A4E81CF6A24E0076A158;
+			remoteInfo = "翼支付";
+		};
+		7B18A5091CF6A24F0076A158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B18A4E11CF6A24E0076A158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B18A4E81CF6A24E0076A158;
+			remoteInfo = "翼支付";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B18A4E91CF6A24E0076A158 /* 翼支付.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "翼支付.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B18A4EC1CF6A24E0076A158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B18A4EE1CF6A24E0076A158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B18A4F11CF6A24F0076A158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B18A4F31CF6A24F0076A158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B18A4F61CF6A24F0076A158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B18A4F81CF6A24F0076A158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18A4FD1CF6A24F0076A158 /* 翼支付Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "翼支付Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B18A5011CF6A24F0076A158 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		7B18A5031CF6A24F0076A158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18A5081CF6A24F0076A158 /* 翼支付UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "翼支付UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B18A50C1CF6A24F0076A158 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		7B18A50E1CF6A24F0076A158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18A5281CF6A4910076A158 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7B18A5291CF6A4C20076A158 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7B18A52B1CF6A4CB0076A158 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		7B18A52D1CF6A4D20076A158 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7B18A52F1CF6A4D70076A158 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B18A5311CF6A4DC0076A158 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B18A5331CF6A4E50076A158 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7B18A5351CF6A4EA0076A158 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B18A5371CF6A4EF0076A158 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B18A5391CF6A4F50076A158 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B18A53C1CF6B4470076A158 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		7B18A53D1CF6B4470076A158 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		7B18A5431CF6C2CE0076A158 /* BestpayNativeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestpayNativeModel.h; sourceTree = "<group>"; };
+		7B18A5441CF6C2CE0076A158 /* BestpaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestpaySDK.h; sourceTree = "<group>"; };
+		7B18A5451CF6C2CE0076A158 /* libH5ContainerStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libH5ContainerStaticLib.a; sourceTree = "<group>"; };
+		7B18A5471CF6C2CE0076A158 /* bestpay_error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bestpay_error.html; sourceTree = "<group>"; };
+		7B18A5481CF6C2CE0076A158 /* bestpay_nowifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestpay_nowifi.png; sourceTree = "<group>"; };
+		7B18A5491CF6C2CE0076A158 /* PassGuardCtrlBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PassGuardCtrlBundle.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B18A4E61CF6A24E0076A158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18A53A1CF6A4F50076A158 /* SystemConfiguration.framework in Frameworks */,
+				7B18A5381CF6A4EF0076A158 /* QuartzCore.framework in Frameworks */,
+				7B18A5361CF6A4EA0076A158 /* CoreGraphics.framework in Frameworks */,
+				7B18A5341CF6A4E50076A158 /* AudioToolbox.framework in Frameworks */,
+				7B18A5321CF6A4DC0076A158 /* UIKit.framework in Frameworks */,
+				7B18A5301CF6A4D70076A158 /* Foundation.framework in Frameworks */,
+				7B18A54A1CF6C2CE0076A158 /* libH5ContainerStaticLib.a in Frameworks */,
+				7B18A52C1CF6A4CB0076A158 /* libstdc++.6.0.9.tbd in Frameworks */,
+				7B18A52A1CF6A4C20076A158 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A4FA1CF6A24F0076A158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A5051CF6A24F0076A158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B18A4E01CF6A24E0076A158 = {
+			isa = PBXGroup;
+			children = (
+				7B18A5391CF6A4F50076A158 /* SystemConfiguration.framework */,
+				7B18A5371CF6A4EF0076A158 /* QuartzCore.framework */,
+				7B18A5351CF6A4EA0076A158 /* CoreGraphics.framework */,
+				7B18A5331CF6A4E50076A158 /* AudioToolbox.framework */,
+				7B18A5311CF6A4DC0076A158 /* UIKit.framework */,
+				7B18A52F1CF6A4D70076A158 /* Foundation.framework */,
+				7B18A52D1CF6A4D20076A158 /* CFNetwork.framework */,
+				7B18A52B1CF6A4CB0076A158 /* libstdc++.6.0.9.tbd */,
+				7B18A5291CF6A4C20076A158 /* libsqlite3.0.tbd */,
+				7B18A4EB1CF6A24E0076A158 /* 翼支付 */,
+				7B18A5001CF6A24F0076A158 /* 翼支付Tests */,
+				7B18A50B1CF6A24F0076A158 /* 翼支付UITests */,
+				7B18A4EA1CF6A24E0076A158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B18A4EA1CF6A24E0076A158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A4E91CF6A24E0076A158 /* 翼支付.app */,
+				7B18A4FD1CF6A24F0076A158 /* 翼支付Tests.xctest */,
+				7B18A5081CF6A24F0076A158 /* 翼支付UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B18A4EB1CF6A24E0076A158 /* 翼支付 */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A5411CF6C2CE0076A158 /* lib */,
+				7B18A53B1CF6B4470076A158 /* MD5 */,
+				7B18A4EC1CF6A24E0076A158 /* AppDelegate.swift */,
+				7B18A4EE1CF6A24E0076A158 /* ViewController.swift */,
+				7B18A4F01CF6A24F0076A158 /* Main.storyboard */,
+				7B18A4F31CF6A24F0076A158 /* Assets.xcassets */,
+				7B18A4F51CF6A24F0076A158 /* LaunchScreen.storyboard */,
+				7B18A4F81CF6A24F0076A158 /* Info.plist */,
+				7B18A5281CF6A4910076A158 /* Header.h */,
+			);
+			path = "翼支付";
+			sourceTree = "<group>";
+		};
+		7B18A5001CF6A24F0076A158 /* 翼支付Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A5011CF6A24F0076A158 /* ___Tests.swift */,
+				7B18A5031CF6A24F0076A158 /* Info.plist */,
+			);
+			path = "翼支付Tests";
+			sourceTree = "<group>";
+		};
+		7B18A50B1CF6A24F0076A158 /* 翼支付UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A50C1CF6A24F0076A158 /* ___UITests.swift */,
+				7B18A50E1CF6A24F0076A158 /* Info.plist */,
+			);
+			path = "翼支付UITests";
+			sourceTree = "<group>";
+		};
+		7B18A53B1CF6B4470076A158 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A53C1CF6B4470076A158 /* MD5.h */,
+				7B18A53D1CF6B4470076A158 /* MD5.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		7B18A5411CF6C2CE0076A158 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A5421CF6C2CE0076A158 /* include */,
+				7B18A5451CF6C2CE0076A158 /* libH5ContainerStaticLib.a */,
+				7B18A5461CF6C2CE0076A158 /* Resources */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7B18A5421CF6C2CE0076A158 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A5431CF6C2CE0076A158 /* BestpayNativeModel.h */,
+				7B18A5441CF6C2CE0076A158 /* BestpaySDK.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7B18A5461CF6C2CE0076A158 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B18A5471CF6C2CE0076A158 /* bestpay_error.html */,
+				7B18A5481CF6C2CE0076A158 /* bestpay_nowifi.png */,
+				7B18A5491CF6C2CE0076A158 /* PassGuardCtrlBundle.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B18A4E81CF6A24E0076A158 /* 翼支付 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B18A5111CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付" */;
+			buildPhases = (
+				7B18A4E51CF6A24E0076A158 /* Sources */,
+				7B18A4E61CF6A24E0076A158 /* Frameworks */,
+				7B18A4E71CF6A24E0076A158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "翼支付";
+			productName = "翼支付";
+			productReference = 7B18A4E91CF6A24E0076A158 /* 翼支付.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B18A4FC1CF6A24F0076A158 /* 翼支付Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B18A5141CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付Tests" */;
+			buildPhases = (
+				7B18A4F91CF6A24F0076A158 /* Sources */,
+				7B18A4FA1CF6A24F0076A158 /* Frameworks */,
+				7B18A4FB1CF6A24F0076A158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B18A4FF1CF6A24F0076A158 /* PBXTargetDependency */,
+			);
+			name = "翼支付Tests";
+			productName = "翼支付Tests";
+			productReference = 7B18A4FD1CF6A24F0076A158 /* 翼支付Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B18A5071CF6A24F0076A158 /* 翼支付UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B18A5171CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付UITests" */;
+			buildPhases = (
+				7B18A5041CF6A24F0076A158 /* Sources */,
+				7B18A5051CF6A24F0076A158 /* Frameworks */,
+				7B18A5061CF6A24F0076A158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B18A50A1CF6A24F0076A158 /* PBXTargetDependency */,
+			);
+			name = "翼支付UITests";
+			productName = "翼支付UITests";
+			productReference = 7B18A5081CF6A24F0076A158 /* 翼支付UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B18A4E11CF6A24E0076A158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wenrui;
+				TargetAttributes = {
+					7B18A4E81CF6A24E0076A158 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7B18A4FC1CF6A24F0076A158 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B18A4E81CF6A24E0076A158;
+					};
+					7B18A5071CF6A24F0076A158 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B18A4E81CF6A24E0076A158;
+					};
+				};
+			};
+			buildConfigurationList = 7B18A4E41CF6A24E0076A158 /* Build configuration list for PBXProject "翼支付" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B18A4E01CF6A24E0076A158;
+			productRefGroup = 7B18A4EA1CF6A24E0076A158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B18A4E81CF6A24E0076A158 /* 翼支付 */,
+				7B18A4FC1CF6A24F0076A158 /* 翼支付Tests */,
+				7B18A5071CF6A24F0076A158 /* 翼支付UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B18A4E71CF6A24E0076A158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18A4F71CF6A24F0076A158 /* LaunchScreen.storyboard in Resources */,
+				7B18A54D1CF6C2CE0076A158 /* PassGuardCtrlBundle.bundle in Resources */,
+				7B18A4F41CF6A24F0076A158 /* Assets.xcassets in Resources */,
+				7B18A54C1CF6C2CE0076A158 /* bestpay_nowifi.png in Resources */,
+				7B18A54B1CF6C2CE0076A158 /* bestpay_error.html in Resources */,
+				7B18A4F21CF6A24F0076A158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A4FB1CF6A24F0076A158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A5061CF6A24F0076A158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B18A4E51CF6A24E0076A158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18A53E1CF6B4470076A158 /* MD5.m in Sources */,
+				7B18A4EF1CF6A24E0076A158 /* ViewController.swift in Sources */,
+				7B18A4ED1CF6A24E0076A158 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A4F91CF6A24F0076A158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18A5021CF6A24F0076A158 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B18A5041CF6A24F0076A158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18A50D1CF6A24F0076A158 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B18A4FF1CF6A24F0076A158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B18A4E81CF6A24E0076A158 /* 翼支付 */;
+			targetProxy = 7B18A4FE1CF6A24F0076A158 /* PBXContainerItemProxy */;
+		};
+		7B18A50A1CF6A24F0076A158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B18A4E81CF6A24E0076A158 /* 翼支付 */;
+			targetProxy = 7B18A5091CF6A24F0076A158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B18A4F01CF6A24F0076A158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B18A4F11CF6A24F0076A158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B18A4F51CF6A24F0076A158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B18A4F61CF6A24F0076A158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B18A50F1CF6A24F0076A158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B18A5101CF6A24F0076A158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B18A5121CF6A24F0076A158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "翼支付/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/翼支付/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/Header.h";
+			};
+			name = Debug;
+		};
+		7B18A5131CF6A24F0076A158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "翼支付/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/翼支付/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/Header.h";
+			};
+			name = Release;
+		};
+		7B18A5151CF6A24F0076A158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "翼支付Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/翼支付.app/翼支付";
+			};
+			name = Debug;
+		};
+		7B18A5161CF6A24F0076A158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "翼支付Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/翼支付.app/翼支付";
+			};
+			name = Release;
+		};
+		7B18A5181CF6A24F0076A158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "翼支付UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "翼支付";
+			};
+			name = Debug;
+		};
+		7B18A5191CF6A24F0076A158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "翼支付UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbg.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "翼支付";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B18A4E41CF6A24E0076A158 /* Build configuration list for PBXProject "翼支付" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B18A50F1CF6A24F0076A158 /* Debug */,
+				7B18A5101CF6A24F0076A158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B18A5111CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B18A5121CF6A24F0076A158 /* Debug */,
+				7B18A5131CF6A24F0076A158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B18A5141CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B18A5151CF6A24F0076A158 /* Debug */,
+				7B18A5161CF6A24F0076A158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B18A5171CF6A24F0076A158 /* Build configuration list for PBXNativeTarget "翼支付UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B18A5181CF6A24F0076A158 /* Debug */,
+				7B18A5191CF6A24F0076A158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B18A4E11CF6A24E0076A158 /* Project object */;
+}
